@@ -19,17 +19,20 @@
 }
 
 .DescriptionContainer > h3 {
+  font-family: 'Gotham-Bold';
   font-size: 25px;
   margin-top: -25px;
 }
 
 .DescriptionContainer > p {
+  font-family: 'Gotham Book';
   padding: 0 90px;
   text-align: center;
 }
 
 @media screen and (max-width: 700px) {
   .DescriptionContainer {
+    position: inherit;
     width: 100%;
   }
 

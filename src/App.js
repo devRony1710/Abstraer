@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Description } from './components/Description/Description';
-// import { Form } from './components/Form/Form';
+import { Form } from './components/Form/Form';
 import { Header } from './components/Header/Header';
 import { RoomSection } from './components/Rooms/RoomSection';
 import MainSlider from './components/Slider/Slider';
@@ -13,8 +13,8 @@ function App() {
   return (
     <>
       <Header />
+      <Form />
       <MainSlider />
-      {/* <Form /> */}
       <Description />
       <RoomSection />
       <Events />

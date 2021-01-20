@@ -1,6 +1,8 @@
 .footer {
   margin: 0;
   background: #c2c2c2;
+  font-family: 'Gotham-Medium';
+  font-size: 14px;
 }
 
 .footerContainer {
