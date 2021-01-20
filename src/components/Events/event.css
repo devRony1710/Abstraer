@@ -19,4 +19,40 @@
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 17px;
   padding: 30px;
+  margin-bottom: 40px;
+}
+
+.Event-Item {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.Event-Item > p {
+  font-size: 20px;
+  padding: 10px;
+  height: 40px;
+  width: 15px;
+  color: #fff;
+  position: relative;
+  top: -20px;
+  left: 0;
+  background: #414141;
+  z-index: 2;
+}
+
+.Event-Item > .DateRotate {
+  position: relative;
+  left: -20px;
+  top: 0;
+  text-align: center;
+  width: 60px;
+  height: 20px;
+  padding: 0;
+  transform: rotate(270deg);
+}
+
+.Event-Item > img {
+  height: inherit;
+  width: inherit;
+  position: absolute;
 }

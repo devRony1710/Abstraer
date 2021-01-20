@@ -13,10 +13,26 @@ export const Events = () => {
     <div className="EventContainer">
       <h2>This Month's Most Anticipated Events</h2>
       <div className="Event-Imgs-Container">
-        <img alt="Event Img" src={event1} />
-        <img alt="Event Img" src={event2} />
-        <img alt="Event Img" src={event3} />
-        <img alt="Event Img" src={event4} />
+        <div className="Event-Item">
+          <p>29</p>
+          <p className="DateRotate">Nov</p>
+          <img alt="Event Img" src={event1} />
+        </div>
+        <div className="Event-Item">
+          <p>29</p>
+          <p className="DateRotate">Nov</p>
+          <img alt="Event Img" src={event2} />
+        </div>
+        <div className="Event-Item">
+          <p>29</p>
+          <p className="DateRotate">Nov</p>
+          <img alt="Event Img" src={event3} />
+        </div>
+        <div className="Event-Item">
+          <p>29</p>
+          <p className="DateRotate">Nov</p>
+          <img alt="Event Img" src={event4} />
+        </div>
       </div>
     </div>
   );

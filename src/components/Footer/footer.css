@@ -1,0 +1,10 @@
+.footer {
+  margin: 0;
+  background: #c2c2c2;
+}
+
+.footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
