@@ -23,4 +23,8 @@
   .slick-slider {
     top: 110px;
   }
+
+  .slick-next .slick-prev {
+    display: none;
+  }
 }

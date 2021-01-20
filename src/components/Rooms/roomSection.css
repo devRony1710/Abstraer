@@ -1,0 +1,55 @@
+.RoomSectionContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: absolute;
+  top: 840px;
+  background: #eeeeee;
+}
+
+.RoomDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+
+.RoomDescription > h1 {
+  margin-top: 5px;
+  text-transform: uppercase;
+  color: #a8a8a8;
+  text-align: center;
+  font-size: 45px;
+}
+
+.RoomDescription > h3 {
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+.RoomDescription > p {
+  font-size: 16px;
+}
+
+.RoomDescription > a {
+  border: 2px solid red;
+  font-weight: bold;
+  color: red;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.Room-Img-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-right: 80px;
+}
+
+@media screen and (max-width: 700px) {
+  .RoomSectionContainer {
+    grid-template-columns: 1fr;
+  }
+}
