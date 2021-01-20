@@ -18,3 +18,9 @@
   transform: rotate(180deg);
   margin-top: -22px;
 }
+
+@media screen and (max-width: 700px) {
+  .slick-slider {
+    top: 110px;
+  }
+}
