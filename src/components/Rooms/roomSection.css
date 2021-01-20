@@ -1,8 +1,6 @@
 .RoomSectionContainer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  position: absolute;
-  top: 840px;
   background: #eeeeee;
 }
 
@@ -51,5 +49,13 @@
 @media screen and (max-width: 700px) {
   .RoomSectionContainer {
     grid-template-columns: 1fr;
+  }
+
+  .RoomDescription {
+    padding: 0;
+  }
+
+  .RoomDescription > h1 {
+    font-size: 20px;
   }
 }

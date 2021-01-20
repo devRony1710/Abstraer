@@ -1,9 +1,9 @@
 .slick-slider {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
+  top: -100px;
+  /* left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 0; */
 }
 
 .slick-next {
