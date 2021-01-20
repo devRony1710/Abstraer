@@ -1,0 +1,41 @@
+.DescriptionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  width: 75%;
+  position: absolute;
+  top: 500px;
+  background: #000;
+  color: #fff;
+  left: 140px;
+}
+
+.DescriptionContainer > h2 {
+  font-family: 'Gotham';
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.DescriptionContainer > h3 {
+  font-size: 25px;
+  margin-top: -25px;
+}
+
+.DescriptionContainer > p {
+  padding: 0 90px;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .DescriptionContainer {
+    width: 85%;
+    top: 304px;
+    left: 0;
+  }
+
+  .DescriptionContainer > p {
+    padding: 0;
+  }
+}
