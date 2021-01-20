@@ -5,6 +5,7 @@ import { Description } from './components/Description/Description';
 import { Header } from './components/Header/Header';
 import { RoomSection } from './components/Rooms/RoomSection';
 import MainSlider from './components/Slider/Slider';
+import { Events } from './components/Events/Events';
 import './components/styles/Fonts.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       {/* <Form /> */}
       <Description />
       <RoomSection />
+      <Events />
     </>
   );
 }
