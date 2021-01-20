@@ -1,0 +1,54 @@
+h3 {
+  color: white;
+  margin-bottom: 25px;
+}
+
+a,
+.fa {
+  display: block;
+  margin: 15px auto;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sticky-tab {
+  box-sizing: border-box;
+  background-color: #333;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  text-align: center;
+  right: -220px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 200ms linear;
+}
+
+.sticky-tab:hover {
+  right: 0;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 25px 15px;
+}
+
+.fa-chevron-left {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-100%);
+}
+
+@media screen and (max-width: 700px) {
+  .sticky-tab {
+    right: 0px;
+  }
+
+  .sticky-tab:hover {
+  }
+}
