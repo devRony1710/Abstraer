@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import { Button } from './Button/Button';
 import calendar from '../../assets/calendar.png';
 
 import './form.css';
@@ -14,13 +13,10 @@ export const Form = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(e.target);
-    console.log('HOLA BEBE');
-    alert('Hice click');
   };
 
   return (
     <div className="FormMainContainer">
-      {/* <Button /> */}
       <button onClick={handleOpenClick} className="button">
         Book Now
       </button>
@@ -28,6 +24,9 @@ export const Form = () => {
         onSubmit={handleSubmit}
         className={`FormContainer ${visible && 'active'}`}
       >
+        <button onClick={handleCloseClick} className="CloseIcon">
+          X
+        </button>
         <h2>Book Now</h2>
         <div className="FormItem">
           <h4>Arrival Date</h4>
