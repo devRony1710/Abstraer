@@ -30,3 +30,13 @@ npm run start
 - Live Demo:
 
 https://abstraer.vercel.app
+
+## Note
+
+To validate the form, once the "let's go" button is pressed, check the console to observe said functionality.
+
+### required values at form
+
+arrival date: 8 numbers (no special characters)
+departure date: 8 numbers (no special characters)
+guess: 1 number
