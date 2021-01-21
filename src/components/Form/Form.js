@@ -45,14 +45,14 @@ export const Form = () => {
           {/* <img alt="icon" className="arrowInput" src={arrowInput} /> */}
         </div>
         <p>GET READY! You are about to get our best price. Guaranteed.</p>
-        <a href="/" className="SubmitForm">
+        <button type="submit" className="SubmitForm">
           LET'S GO
-        </a>
-        <br />
-        <br />
-        <button type="submit" className="AlternativeLink">
-          OR, BOOK YOUR GROUP
         </button>
+        <br />
+        <br />
+        <a href="/" className="AlternativeLink">
+          OR, BOOK YOUR GROUP
+        </a>
       </form>
     </div>
   );
